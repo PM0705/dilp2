@@ -187,13 +187,56 @@
                     </ul>
                 </div>
             </div>
-
-
-
-
-
-
         </section>
+
+        <!-- フォーム帯 -->
+        <section class="form">
+            <div class="form-h2">
+                <h2>人事・採用でお悩みの企業の方、ぜひD.I.Worksにご相談ください</h2>
+            </div>
+            <div class="form-flexbox">
+                <div class="form-tel">
+                    <p>お急ぎの方はお電話ください</p>
+                    <p>03-6258-0901</p>
+                    <p>【受付時間】平日9時～19時</p>
+
+                </div>
+                <div class="form-document">
+                    <p>まずは資料請求</p>
+                    <p>他社とお悩みの方、比べてみてください</p>
+                    <div class="form-button">
+                        <a href="regist2.php" class="button">
+                            まずは資料請求<br>
+                            <span class="button-text">無料で資料請求をする</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- prDIWorksの強み -->
+        <section class="pr">
+            <div class="pr-title position subtitle">
+                <p>他社の人材派遣会社と違う</p>
+                <h2>D.I.worksが選ばれる3つの強み</h2>
+            </div>
+            <div class="pr-corner">
+                <div class="pr-field">
+                    <div class="pr-title">
+                        <!-- imgたぐ -->
+                        <p>日本全国どこでも最適人材をマッチング</p>
+                    </div>
+                    <div class="pr-text">
+                        <p>- 全てのコーディネータが現場経験をしているからこそ知識も豊富で企業様の要望に的確に対応でき最適なスタッフをご紹介できることがD.Iworksの特徴でもあります。企業様の要望にどのような人材が必要かはスキルだけでなく求められる人柄や会社の雰囲気に合う人材の選定に自信があります。</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+
+
 
         <section class="s05__wrap section">
             <div class="h2title position subtitle">

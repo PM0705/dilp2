@@ -265,6 +265,175 @@ h1 {
 }
 
 
+/* フォーム帯 */
+.form {
+  background-color: #bcdffe;
+}
+
+.form-h2 {
+  padding: 40px;
+}
+
+.form h2 {
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgba(255, 0255, 255, 0.3);
+  background: linear-gradient(transparent 60%, #ff6 60%);
+  width: fit-content;
+  margin: 0 auto;
+}
+
+
+
+.form-flexbox {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: stretch;
+}
+
+.form-tel {
+  border: solid 1px #333;
+  text-align: center;
+}
+
+.form-tel p:nth-of-type(1) {
+  background-color: #222a51;
+  font-size: 25px;
+  color: white;
+  padding: 20px;
+}
+
+.form-tel p:nth-of-type(2) {
+  font-size: 35px;
+  margin-top: 10px;
+}
+
+.form-tel p:nth-of-type(3) {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.form-document {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.form-document p:nth-of-type(1) {
+  background-color: #fb4a42;
+  color: white;
+  padding: 10px;
+  font-size: 25px;
+  border-radius: 50px;
+}
+
+.form-document p:nth-of-type(2) {
+  font-size: 25px;
+  padding: 10px 0;
+
+
+}
+
+.form-button {
+  margin: 0 auto;
+}
+
+
+
+/* フォームボタン全体 */
+/* buttonはボタンの見た目 */
+/* form-buttonはボタンの位置 */
+.button {
+  font-size: 18px;
+  font-weight: bold;
+  /* 文字の太さ */
+  text-align: center;
+  letter-spacing: 0.1em;
+  width: 340px;
+  color: #fff;
+  /* 文字色 */
+  position: relative;
+  display: block;
+  text-decoration: none;
+  padding: 1em;
+  border-radius: 100vh;
+  /* ボタン幅 */
+  max-width: 550px;
+  /* 最低ボタン幅 */
+  transition: 0.3s;
+  background: #F99292;
+  box-shadow: 2px 2px 3px -2px #555,
+    2px 2px 3px rgba(255, 255, 255, 0.8) inset;
+  /* お問い合わせボタン色 */
+
+}
+
+/* ボタンの見た目 */
+.button._form {
+  font-size: 16px;
+  width: 50%;
+}
+
+.button::before {
+  content: '';
+  position: absolute;
+
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.button .button-text {
+  line-height: 1;
+  display: inline-block;
+  padding: 0.2em 1.5em;
+  letter-spacing: 0;
+  background: #fff;
+  /* 下文字背景色 */
+  font-size: 90%;
+  /* 下文字サイズ */
+  border-radius: 5px;
+  /* お問い合わせの間のマージン */
+  margin-top: 10px;
+  color: #F99292;
+  /* 下文字色 */
+}
+
+/* マウスオーバーした際のデザイン */
+.button:hover {
+  transform: scale(1.05);
+  background-color: #FB7D79;
+  transition: 0.4s;
+  box-shadow: 0px 0px 15px -5px#e7a4a4;
+  box-shadow: 2px 2px 3px -2px #555,
+    2px 2px 3px rgba(255, 255, 255, 0.8) inset;
+  /* お問い合わせボタン色 */
+
+}
+
+.button .button-text:hover {
+  color: #FB7D79;
+  transition: 0.4s;
+  /* 下文字色 */
+}
+
+/* ボタンSP */
+@media screen and (max-width:590px) {
+  .button {
+    font-size: 16px;
+    width: 100%;
+    margin: 7px 0;
+  }
+}
+
+
+
+
 
 /*footer*/
 footer {
