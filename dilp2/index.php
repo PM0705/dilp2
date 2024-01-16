@@ -46,7 +46,7 @@
                 <div class="first-mainfield">
                     <div class="first-textfield">
                         <h2>長期人材派遣ならD.I.Worksにお任せください</h2>
-                        <h1>求めている人材を<br>ご紹介します！</h1>
+                        <h1>あなたの求めている<span>"人材"</span>を<br>ご紹介します！</h1>
                         <div class="first-subtext">
                             <ul>
                                 <li>
@@ -101,7 +101,7 @@
         <section class="trouble section">
             <div class="troublefield">
                 <div class="pr-title position subtitle">
-                    <h2>企業の皆様、こんなお困りごとございませんか？</h2>
+                    <h2>企業の皆様、こんなお困り事ございませんか？</h2>
                 </div>
                 <div class="troublelist">
                     <ul>
@@ -145,7 +145,7 @@
                 </div>
             </div>
             <div class="pr-title position subtitle">
-                <h2>そのお困りごと解決いたします！</h2>
+                <h2>そのお困り事を解決いたします！</h2>
             </div>
             <!--trouble-voice候補１ -->
             <div class="trouble-voice">
@@ -215,10 +215,10 @@
         </section>
 
         <!-- prDIWorksの強み -->
-        <section class="pr">
+        <section class="pr section">
             <p>他社の人材派遣会社と違う</p>
             <div class="pr-title position subtitle">
-                <h2>D.I.worksが選ばれる<span>3</span>つの<span>強み</span></h2>
+                <h2>D.I.worksが選ばれる<span>3</span>つの<span>"強み"</span></h2>
             </div>
             <div class="pr-corner">
                 <div class="pr-field">
@@ -240,7 +240,7 @@
                         <p>最短翌営業日に紹介可能なスピード対応</p>
                     </div>
                     <div class="pr-text">
-                        <p>ご依頼後、最短で翌営業日に人材をご紹介いたします。D.I.Worksの特徴でもこのスピード感は様々な企業様のご要望にお応えできるようにするため全国にある拠点に様々な職種を経験したスタッフは配置しております</p>
+                        <p>ご依頼後、最短で翌営業日に人材をご紹介いたします。D.I.Worksの特徴でもこのスピード感は様々な企業様のご要望にお応えできるようにするため全国にある拠点に様々な職種を経験したスタッフは配置しております。</p>
                     </div>
                 </div>
                 <div class="pr-field">
@@ -259,7 +259,7 @@
         </section>
 
         <!-- 業種紹介 -->
-        <section class="industry">
+        <section class="industry section">
             <p>様々な実績があるD.I.Worksなら</p>
             <div class="pr-title position subtitle">
                 <h2>あらゆる業種のご紹介が可能です</h2>
@@ -359,7 +359,7 @@
             </div>
         </section>
         <!-- 人材サービスの仕組み -->
-        <section class="service">
+        <section class="service section">
             <p>D.I.Worksの人材派遣の仕組みと</p>
             <div class="pr-title position subtitle">
                 <h2>企業様が人材派遣を活用するメリット</h2>

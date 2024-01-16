@@ -44,6 +44,11 @@ body {
   font-weight: normal;
 }
 
+/* sectionクラス単位のこと */
+.section {
+  padding: 80px 0;
+}
+
 /* ヘッダー */
 header ul {
   display: flex;
@@ -100,7 +105,7 @@ header {
 
 .first-mainfield {
   display: flex;
-
+  justify-content: center;
 }
 
 .first-textfield h2 {
@@ -113,18 +118,30 @@ header {
 }
 
 .first-mainfield {
-  background: linear-gradient(59deg, #1d4f9c 0%, #1d4f9c 56%, white 29%, white 100%);
+  background: linear-gradient(59deg, #1d4f9c 0%, #1d4f9c 70%, white 29%, white 100%);
+}
+
+.first-mainfieldimg {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+
 }
 
 .first-mainfieldimg img {
-  width: 300px;
+  width: 400px;
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 60px;
   color: #fffc00;
   margin-left: 30px;
   margin: 30px;
+}
+
+h1 span {
+  font-size: 70px;
+  font-weight: bold;
 }
 
 .imgfield {
@@ -139,6 +156,10 @@ h1 {
 
 .first-subtext {
   margin-left: 30px;
+}
+
+.first-subtext ul {
+  margin-bottom: 15px;
 }
 
 .first-subtext ul li {
@@ -171,15 +192,18 @@ h1 {
   flex-wrap: wrap;
   margin: 0 auto;
   width: 80%;
+  margin-bottom: 40px;
+
 }
 
 .troublelist ul li {
   display: flex;
   align-items: center;
-  width: 50%;
+  width: 65%;
   box-sizing: border-box;
-  font-size: 16px;
-  padding: 10px 0;
+  font-size: 30px;
+  padding: 19px 0;
+  font-size: 30px;
 }
 
 .troublefield {
@@ -256,23 +280,24 @@ h1 {
 
 /* h2title */
 .subtitle h2 {
-  font-size: 30px;
+  font-size: 50px;
   text-align: center;
   color: #1d4f9c;
 }
 
 .position.subtitle {
-  padding: 80px 0;
+  padding-bottom: 40px;
 }
 
 
 /* フォーム帯 */
 .form {
   background-color: #bcdffe;
+  padding: 80px;
 }
 
 .form-h2 {
-  padding: 40px;
+  padding-bottom: 40px;
 }
 
 .form h2 {
@@ -343,6 +368,10 @@ h1 {
 
 
 /* prD.I.Worksの強み */
+.pr.section>p:nth-child(1) {
+  font-size: 40px;
+}
+
 .pr-corner {
   display: flex;
   justify-content: center;
@@ -355,9 +384,7 @@ h1 {
   background-color: #ffd71f;
 }
 
-.pr .position.subtitle {
-  padding: 20px 0;
-}
+
 
 .pr h2 span:nth-of-type(1) {
   color: #fb4a42;
@@ -367,8 +394,8 @@ h1 {
 
 .pr h2 span:nth-of-type(2) {
 
-  font-size: 50px;
-  font-weight: bold;
+  font-size: 65px;
+
 }
 
 .pr p {
@@ -418,15 +445,20 @@ h1 {
   font-weight: 100;
 }
 
+.pr-text {
+  text-align-last: left;
+}
+
 /* industry業種紹介 */
 .industry {
   background-image: url(img/dilp2bimg.png);
-  background-size: 100%;
+  background-size: 116%;
   background-repeat: no-repeat;
   background: contain;
   background-position: center;
-  min-height: 800px;
+  min-height: 909px;
   width: 100%;
+  overflow: hidden;
 }
 
 .industry h2 {
@@ -603,8 +635,16 @@ h1 {
   text-align: center;
 }
 
+.service h2 {
+  font-size: 50px;
+}
+
+.service>p:nth-child(1) {
+  font-size: 30px;
+}
+
 .service .position.subtitle {
-  padding: 20px;
+  padding: 10px 0 40px 0;
 }
 
 .service-field {
@@ -634,6 +674,7 @@ h1 {
 
 .service-text {
   width: 80%;
+  padding: 30px 0;
 }
 
 .service-text ul li {
@@ -643,9 +684,9 @@ h1 {
 
 .service-text1 p {
   display: flex;
-  font-size: 16px;
+  font-size: 20px;
   text-align-last: left;
-  padding: 10px 0;
+
   width: 70%;
   margin: 0 auto;
 }
@@ -873,7 +914,7 @@ footer {
   max-width: 550px;
   /* 最低ボタン幅 */
   transition: 0.3s;
-  background: #F99292;
+  background: #ff9200;
   box-shadow: 2px 2px 3px -2px #555,
     2px 2px 3px rgba(255, 255, 255, 0.8) inset;
   /* お問い合わせボタン色 */
@@ -910,14 +951,14 @@ footer {
   border-radius: 5px;
   /* お問い合わせの間のマージン */
   margin-top: 10px;
-  color: #F99292;
+  color: #ff9200;
   /* 下文字色 */
 }
 
 /* マウスオーバーした際のデザイン */
 .button:hover {
   transform: scale(1.05);
-  background-color: #FB7D79;
+  background-color: #ecaa53;
   transition: 0.4s;
   box-shadow: 0px 0px 15px -5px#e7a4a4;
   box-shadow: 2px 2px 3px -2px #555,
@@ -927,7 +968,7 @@ footer {
 }
 
 .button .button-text:hover {
-  color: #FB7D79;
+  color: #ff9200;
   transition: 0.4s;
   /* 下文字色 */
 }
