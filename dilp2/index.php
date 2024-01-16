@@ -202,7 +202,7 @@
 
                 </div>
                 <div class="form-document">
-                    <p>まずは資料請求</p>
+                    <p>無料で資料請求</p>
                     <p>他社とお悩みの方、比べてみてください</p>
                     <div class="form-button">
                         <a href="regist2.php" class="button">
@@ -216,18 +216,42 @@
 
         <!-- prDIWorksの強み -->
         <section class="pr">
+            <p>他社の人材派遣会社と違う</p>
             <div class="pr-title position subtitle">
-                <p>他社の人材派遣会社と違う</p>
-                <h2>D.I.worksが選ばれる3つの強み</h2>
+                <h2>D.I.worksが選ばれる<span>3</span>つの<span>強み</span></h2>
             </div>
             <div class="pr-corner">
                 <div class="pr-field">
-                    <div class="pr-title">
-                        <!-- imgたぐ -->
+                    <div class="pr-fieldtitle">
+                        <div class="primg">
+                            <img src="img/match.png" alt="TOPmainビジュアル画像">
+                        </div>
                         <p>日本全国どこでも最適人材をマッチング</p>
                     </div>
                     <div class="pr-text">
-                        <p>- 全てのコーディネータが現場経験をしているからこそ知識も豊富で企業様の要望に的確に対応でき最適なスタッフをご紹介できることがD.Iworksの特徴でもあります。企業様の要望にどのような人材が必要かはスキルだけでなく求められる人柄や会社の雰囲気に合う人材の選定に自信があります。</p>
+                        <p>全てのコーディネータが現場経験をしているからこそ知識も豊富で企業様の要望に的確に対応でき最適なスタッフをご紹介できることがD.Iworksの特徴でもあります。企業様の要望にどのような人材が必要かはスキルだけでなく求められる人柄や会社の雰囲気に合う人材の選定に自信があります。</p>
+                    </div>
+                </div>
+                <div class="pr-field">
+                    <div class="pr-fieldtitle">
+                        <div class="primg">
+                            <img src="img/match.png" alt="TOPmainビジュアル画像">
+                        </div>
+                        <p>最短翌営業日に紹介可能なスピード対応</p>
+                    </div>
+                    <div class="pr-text">
+                        <p>ご依頼後、最短で翌営業日に人材をご紹介いたします。D.I.Worksの特徴でもこのスピード感は様々な企業様のご要望にお応えできるようにするため全国にある拠点に様々な職種を経験したスタッフは配置しております</p>
+                    </div>
+                </div>
+                <div class="pr-field">
+                    <div class="pr-fieldtitle">
+                        <div class="primg">
+                            <img src="img/match.png" alt="TOPmainビジュアル画像">
+                        </div>
+                        <p>優秀な人材は貴社の正社員へ</p>
+                    </div>
+                    <div class="pr-text">
+                        <p>- 紹介予定派遣なら派遣スタッフを貴社で直接雇用ができます。最長6ヶ月の派遣期間終了後、貴社の正社員や直接雇用が可能です。詳しくはお問い合わせください。</p>
                     </div>
                 </div>
 
