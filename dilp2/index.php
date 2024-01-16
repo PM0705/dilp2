@@ -235,7 +235,7 @@
                 <div class="pr-field">
                     <div class="pr-fieldtitle">
                         <div class="primg">
-                            <img src="img/match.png" alt="TOPmainビジュアル画像">
+                            <img src="img/schedule.png" alt="TOPmainビジュアル画像">
                         </div>
                         <p>最短翌営業日に紹介可能なスピード対応</p>
                     </div>
@@ -246,22 +246,54 @@
                 <div class="pr-field">
                     <div class="pr-fieldtitle">
                         <div class="primg">
-                            <img src="img/match.png" alt="TOPmainビジュアル画像">
+                            <img src="img/contract.png" alt="TOPmainビジュアル画像">
                         </div>
                         <p>優秀な人材は貴社の正社員へ</p>
                     </div>
                     <div class="pr-text">
-                        <p>- 紹介予定派遣なら派遣スタッフを貴社で直接雇用ができます。最長6ヶ月の派遣期間終了後、貴社の正社員や直接雇用が可能です。詳しくはお問い合わせください。</p>
+                        <p>紹介予定派遣なら派遣スタッフを貴社で直接雇用ができます。最長6ヶ月の派遣期間終了後、貴社の正社員や直接雇用が可能です。詳しくはお問い合わせください。</p>
                     </div>
                 </div>
 
             </div>
         </section>
 
+        <!-- 業種紹介 -->
+        <section class="industry">
+            <p>様々な実績があるD.I.Worksなら</p>
+            <div class="pr-title position subtitle">
+                <h2>あらゆる業種のご紹介が可能です</h2>
+                <p>D.I.Worksは長期人材サービスのエキスパートです。<br>
+                    全国の拠点から企業様のご希望の人材を最短翌営業日にご紹介することができる<br>
+                    人材派遣・紹介サービスです。
+                </p>
+            </div>
+            <div class="industry-field">
+                <p>紹介可能業務の一例</p>
+                <ul>コールセンター
+                    <li>インバウンド/ヘルプデスク/アウトバウンド</li>
+                </ul>
+                <ul>事務・オフィス
+                    <li>データ入力・ファイリング/一般事務/その他事務・オフィス関連</li>
+                </ul>
+                <ul>販売・小売
+                    <li>デパート・百貨店/スーパー・コンビニ/その他小売・販売</li>
+                </ul>
+                <ul>物流・倉庫業
+                    <li>日用品物流倉庫/家具物流倉庫/アパレル 物流倉庫/その他物流倉庫</li>
+                </ul>
+                <ul>飲食業
+                    <li>居酒屋/レストラン・ホテル/その他飲食店</li>
+                </ul>
+                <ul>清掃・リネン
+                    <li>オフィスビル/ホテル・客室/その他清掃・リネン</li>
+                </ul>
+            </div>
+        </section>
 
 
 
-
+        <!-- 依頼の流れ -->
         <section class="s05__wrap section">
             <div class="h2title position subtitle">
                 <h2><a id="headerlink2">ご依頼の流れ</a></h2>
@@ -300,20 +332,98 @@
                     <p>最短翌日からご利用いただけます。</p>
                 </li>
             </ul>
-            <!-- フォーム帯 -->
-            <div class="formfield">
-                <div>
-                    <a href="regist.php" class="button">
-                        無料お見積り<br>
-                        <span class="button-text">無料お見積りページへ</span>
-                    </a>
+        </section>
+
+        <!-- フォーム帯 -->
+        <section class="form">
+            <div class="form-h2">
+                <h2>人事・採用でお悩みの企業の方、ぜひD.I.Worksにご相談ください</h2>
+            </div>
+            <div class="form-flexbox">
+                <div class="form-tel">
+                    <p>お急ぎの方はお電話ください</p>
+                    <p>03-6258-0901</p>
+                    <p>【受付時間】平日9時～19時</p>
+
                 </div>
-                <div>
-                    <a href="regist2.php" class="button">
-                        まずは資料請求<br>
-                        <span class="button-text">無料で資料請求をする</span>
-                    </a>
+                <div class="form-document">
+                    <p>無料で資料請求</p>
+                    <p>他社とお悩みの方、比べてみてください</p>
+                    <div class="form-button">
+                        <a href="regist2.php" class="button">
+                            まずは資料請求<br>
+                            <span class="button-text">無料で資料請求をする</span>
+                        </a>
+                    </div>
                 </div>
+            </div>
+        </section>
+        <!-- 人材サービスの仕組み -->
+        <section class="service">
+            <p>D.I.Worksの人材派遣の仕組みと</p>
+            <div class="pr-title position subtitle">
+                <h2>企業様が人材派遣を活用するメリット</h2>
+            </div>
+            <div class="service-corner">
+                <div class="service-field">
+                    <div class="service-title">
+                        <p>人材派遣のしくみ</p>
+                    </div>
+                    <div class="service-flexbox">
+                        <div class="service-text service-text1">
+                            <p>D.I.Worksが雇用している社員を、企業に派遣し仕事に従事してもらうます。入社後の指揮命令権は企業にあるので企業で指揮をとることが可能です。<br>
+                                給与の支払いや雇用保険などの事務的な手続きは派遣会社が行います。企業は派遣会社と労働者派遣契約を結びます。
+                            </p>
+                        </div>
+                        <div class="serviceimg">
+                            <img src="img/contract.png" alt="TOPmainビジュアル画像">
+                        </div>
+
+                    </div>
+                </div>
+                <div class="service-field">
+                    <div class="service-title">
+                        <p>D.I.Worksを利用するメリット</p>
+                    </div>
+                    <div class="service-flexbox">
+                        <div class="service-text service-text2">
+                            <ul>
+                                <li>
+                                    <div class="troublelist">
+                                        <img src="img/check.png" alt="TOPmainビジュアル画像">
+                                    </div>
+                                    コストの削減につながる
+                                </li>
+                                <p>D.I.Worksではご希望の人材を企業さまにご紹介させていただきますので採用活動や育成にかかる手間や費用を抑えることが可能です。
+                                    また派遣料金は財務上、固定費（人件費）ではなく変動費（仕入原価）として計上できるので、固定費を削減でき、節税にもつながります。</p>
+                                <li>
+                                    <div class="troublelist">
+                                        <img src="img/check.png" alt="TOPmainビジュアル画像">
+                                    </div>
+                                    必要なときのみ雇用ができる
+                                </li>
+                                <p>D.I.Worksでは長期人材派遣を得意としております。そのため最低3ヶ月からの派遣で観光シーズンの季節だけ・社員の産休中だけ・社員の長期出張中だけといった限定的な人材補充に柔軟に対応することができます。</p>
+                                <li>
+                                    <div class="troublelist">
+                                        <img src="img/check.png" alt="TOPmainビジュアル画像">
+                                    </div>
+                                    経験者・未経験社を確保できる
+                                </li>
+                                <p>D.I.Worksでは高い専門技術をもつ人材や未経験でも元気な若手の人材など職種だけではなく幅広い人材の中からご希望の人材を
+                                    派遣・紹介することが可能です。
+                                </p>
+                                <li>
+                                    <div class="troublelist">
+                                        <img src="img/check.png" alt="TOPmainビジュアル画像">
+                                    </div>
+                                    業務効率が上がる
+                                </li>
+                                <p>D.I.Worksのスタッフに仕事を任せることで、正社員はコア業務に集中でき、また部下の育成に専念することができ業務効率の向上に繋がります。</p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
 
@@ -322,127 +432,7 @@
 
 
 
-        <!-- DIが選ばれる理由 -->
-        <section class="choice section">
-            <div class="h2title position subtitle">
-                <h2><a id="headerlink2">D.Iworksが選ばれる理由</a></h2>
-            </div>
-            <div class="choice-field">
-                <div class="field-box">
-                    <div class="choice-img">
-                        <img src="img/0202.svg" alt="人材のアイコン">
-                    </div>
-                    <div class="choice-text">
-                        <div class="choice-title">
-                            <span class="choice-maintitle">圧倒的な人材のクオリティ</span>
-                        </div>
-                        <p class="choice-subtitle">各種業務の経験者が多数在籍しているので、<br>
-                            お客様のニーズにマッチした人材をスピーディーにご紹介します。<br>
-                            また優秀な無期雇用スタッフも派遣可能です。</p>
-                    </div>
-                </div>
-
-                <div class="field-box">
-                    <div class="choice-img">
-                        <img src="img/0203.svg" alt="紹介のアイコン">
-                    </div>
-                    <div class="choice-text">
-                        <div class="choice-title">
-                            <span class="choice-maintitle">紹介予定派遣なら30万円〜でご紹介可能</span>
-                        </div>
-                        <p class="choice-subtitle">長年の実績から導き出された豊富なノウハウがあります。<br>
-                            最長6ヶ月の派遣期間終了後、貴社の正社員や直接雇用が可能です。
-                        </p>
-                    </div>
-                </div>
-
-                <div class="field-box">
-                    <div class="choice-img">
-                        <img src="img/0204.svg" alt="料金体系のアイコン">
-                    </div>
-                    <div class="choice-text">
-                        <div class="choice-title">
-                            <span class="choice-maintitle">納得の料金体系</span>
-                        </div>
-                        <p class="choice-subtitle">人材サービスは、スキルや経験の<br class="pc-mode">ご要望に合わせて細かく設定できます。<br>
-                            料金は業務内容に応じてディスカウント可能です。<br>
-                            業界最安値水準でお客様から喜ばれています。
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-
-        </section>
-        <!-- 導入事例 -->
-        <section class="case section">
-            <div class="h2title position subtitle">
-                <h2><a id="headerlink3">導入サービス</a></h2>
-            </div>
-            <div class="case-corner">
-                <div class="case-field">
-                    <img src="img/call.png" alt="コールセンターの女性写真">
-                    <p>コールセンターのご紹介例</p>
-                    <div class="case-before">
-                        <p class="before-text">導入前</p>
-                        <p>慢性的な人員不足により、業務の品質低下・停滞がある。</p>
-                    </div>
-                    <div class="triangle2"></div>
-                    <div class="case-after">
-                        <p class="after-text">導入後</p>
-                        <p>必要に応じて派遣スタッフを利用。<br>人員の増員により機会損失を防ぎ、取引先への対応も遅延なく実行することができた。</p>
-                    </div>
-                </div>
-                <div class="case-field">
-                    <img src="img/helpdesk.png" alt="ヘルプデスクの女性写真">
-                    <p>ヘルプデスクのご紹介例</p>
-                    <div class="case-before">
-                        <p class="before-text">導入前</p>
-                        <p>人員が定着せず離職が多い、季節需要があり仕事の伸びにあわせた人材調達が困難になっている。</p>
-                    </div>
-                    <div class="triangle2"></div>
-                    <div class="case-after">
-                        <p class="after-text">導入後</p>
-                        <p>必要に応じて繁忙時期に合わせて大規模（50名単位）な人員を調達することができ、計画にあわせた人員確保が可能となった。その後、適正のあるスタッフを長期化することで、安定した人材も確保することができた。
-                            また、給与計算や労務は当社が行うので、管理部門の負担が減り、コア業務に注力できるようになった。</p>
-                    </div>
-                </div>
-                <div class="case-field">
-                    <img src="img/hanbai.png" alt="レジの女性">
-                    <p>販売・小売業のご紹介例</p>
-                    <div class="case-before">
-                        <p class="before-text">導入前</p>
-                        <p>入退職が激しく、新機種発売時は特に需要が集中するため、求人サイト等を利用した自社採用だけでは採用が集まらず、毎年求人単価が上昇している。また、他社派遣会社に依頼しても、人が集まらないケースがある。</p>
-                    </div>
-                    <div class="triangle2"></div>
-                    <div class="case-after">
-                        <p class="after-text">導入後</p>
-                        <p>他社派遣会社では集めることのできなかった人数を十分に確保することができ、求人費についても最小限に抑えることができた。また、紹介された派遣スタッフの給与計算や労務を当社が行うことで、管理部門の負担なく派遣を導入することができた。</p>
-                    </div>
-                </div>
-            </div>
-            <!-- フォーム帯 -->
-            <div class="formfield">
-                <div>
-                    <a href="regist.php" class="button">
-                        無料お見積り<br>
-                        <span class="button-text">無料お見積りページへ</span>
-                    </a>
-                </div>
-                <div>
-                    <a href="regist2.php" class="button">
-                        まずは資料請求<br>
-                        <span class="button-text">無料で資料請求をする</span>
-                    </a>
-                </div>
-            </div>
-        </section>
-
-
-
-
-
-        <!-- 様々な職種に対応 -->
+        <!-- サービス展開エリア -->
         <section class="s07__wrap section">
             <div class="h2title position subtitle">
                 <h2><a id="headerlink4">よくあるご質問
@@ -508,19 +498,30 @@
                     <p>福岡県｜佐賀県｜長崎県｜熊本県｜大分県｜宮崎県｜鹿児島県｜沖縄県</p>
                 </div>
             </div>
-            <!-- フォーム帯 -->
-            <div class="formfield">
-                <div>
-                    <a href="regist.php" class="button">
-                        無料お見積り<br>
-                        <span class="button-text">無料お見積りページへ</span>
-                    </a>
+
+        </section>
+
+        <!-- フォーム帯 -->
+        <section class="form">
+            <div class="form-h2">
+                <h2>人事・採用でお悩みの企業の方、ぜひD.I.Worksにご相談ください</h2>
+            </div>
+            <div class="form-flexbox">
+                <div class="form-tel">
+                    <p>お急ぎの方はお電話ください</p>
+                    <p>03-6258-0901</p>
+                    <p>【受付時間】平日9時～19時</p>
+
                 </div>
-                <div>
-                    <a href="regist2.php" class="button">
-                        まずは資料請求<br>
-                        <span class="button-text">無料で資料請求をする</span>
-                    </a>
+                <div class="form-document">
+                    <p>無料で資料請求</p>
+                    <p>他社とお悩みの方、比べてみてください</p>
+                    <div class="form-button">
+                        <a href="regist2.php" class="button">
+                            まずは資料請求<br>
+                            <span class="button-text">無料で資料請求をする</span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </section>
