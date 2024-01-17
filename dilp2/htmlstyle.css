@@ -49,6 +49,23 @@ body {
   padding: 80px 0;
 }
 
+section {
+  max-width: 2000px;
+  margin: 0 auto;
+}
+
+/* sectionクラス単位のことSP */
+@media screen and (max-width:590px) {
+  .section {
+    padding: 40px 0;
+  }
+
+  section {
+    max-width: 590px;
+    margin: 0 auto;
+  }
+}
+
 /* ヘッダー */
 header ul {
   display: flex;
@@ -145,21 +162,24 @@ h1 span {
 }
 
 .imgfield {
-  display: flex;
-  justify-content: space-around;
 
+  max-width: 2000px;
 }
 
 .imgfield img {
-  width: 200px;
+  max-width: 100%;
+  height: auto;
+  width: 2000px;
+
 }
+
 
 .first-subtext {
   margin-left: 30px;
 }
 
 .first-subtext ul {
-  margin-bottom: 15px;
+  margin-bottom: 45px;
 }
 
 .first-subtext ul li {
@@ -177,21 +197,83 @@ h1 span {
   margin-top: 10px;
 }
 
+.first-checkimg {
+  margin-right: 5px;
+}
+
 .first-checkimg img {
   width: 30px;
 }
 
+/* firstsectionSP */
+@media screen and (max-width:590px) {
+  h1 {
+    font-size: 35px;
+    text-align: center;
+    margin: 15px;
+  }
+
+  h1 span {
+    font-size: 62px;
+    font-weight: bold;
+  }
+
+  .first-mainfield {
+    flex-direction: column;
+    background-image: url(img/topimg.png);
+    background-size: 265px;
+    background-repeat: no-repeat;
+    background: contain;
+    background-position: bottom 0px right 0px;
+    min-height: 667px;
+  }
+
+  .first-textfield h2 {
+    font-size: 20px;
+    margin-top: 182px;
+    text-align: center;
+  }
+
+  .first-subtext ul li {
+    border-radius: 5px;
+    padding: 6px;
+    width: 80%;
+    font-size: 14px;
+  }
+
+  .first-subtext {
+    margin-left: 2%;
+  }
+
+  .first-subtext ul {
+    margin-bottom: 35px;
+  }
+
+  .first-textfield {
+    min-height: 667px;
+  }
+
+}
+
+.first {
+  background: linear-gradient(105deg, #1d4f9c 73%, #1d4f9c 41%, white 29%, white 15%);
+}
+
 
 /* troubleお困りではありませんか？ */
-.troublelist img {
+.troublelistimg {
+  margin-right: 5px;
+}
+
+.troublelistimg img {
   width: 30px;
+  vertical-align: baseline;
 }
 
 .troublelist ul {
-  display: flex;
-  flex-wrap: wrap;
+
   margin: 0 auto;
-  width: 80%;
+  width: 61%;
   margin-bottom: 40px;
 
 }
@@ -211,8 +293,12 @@ h1 span {
   background-size: 600px;
   background-repeat: no-repeat;
   background: contain;
-  background-position: bottom -87px right -56px;
+  background-position: bottom -87px right 0px;
   min-height: 400px;
+}
+
+._troublefield {
+  margin-top: 60px;
 }
 
 .trouble-voice {
@@ -241,7 +327,7 @@ h1 span {
 .voicefield-company p:nth-of-type(1) {
   font-size: 16px;
   text-align: center;
-  padding-top: 32px;
+  padding-top: 42px;
   color: white;
 }
 
@@ -249,7 +335,7 @@ h1 span {
   font-size: 24px;
   text-align: center;
   color: white;
-  padding: 20px 0;
+  padding: 5px 0 25px;
 }
 
 .voicefield-text {
@@ -259,7 +345,7 @@ h1 span {
 }
 
 .voicefield-text {
-  padding: 48px;
+  padding: 38px;
   font-size: 20px;
 }
 
@@ -278,6 +364,85 @@ h1 span {
 }
 
 
+
+/* troubleお困りではありませんか？SP */
+@media screen and (max-width:590px) {
+  .troublefield {
+    background-image: none;
+
+
+  }
+
+  .troublelist ul li {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 9px 0;
+    font-size: 16px;
+    align-items: baseline;
+  }
+
+  .troublefield .pr-title.position.subtitle {
+    background-image: url(img/trouble.jpg);
+    background-size: 243px;
+    background-repeat: no-repeat;
+    background: contain;
+    background-position: bottom -44px right -67px;
+    min-height: 100px;
+  }
+
+  .troublefield>.pr-title h2 {
+    margin-left: 9%;
+    font-size: 16px;
+
+  }
+
+  ._troublefield.pr-title h2 {
+    width: 100%;
+    font-size: 16px;
+  }
+
+
+
+  /* そんなお困りごと解決・・・ */
+  .voicefield ul {
+    flex-direction: column;
+    min-width: 120px;
+    width: 350px;
+  }
+
+  .voicefield ul li {
+
+    background-size: 350px;
+    width: 350px;
+  }
+
+  .voicefield-company p:nth-of-type(1) {
+    font-size: 16px;
+    padding-top: 47px;
+    color: white;
+  }
+
+  .voicefield-company p:nth-of-type(2) {
+    font-size: 21px;
+    color: white;
+    padding: 15px 0;
+  }
+
+  .voicefield-text {
+    padding: 37px;
+    font-size: 17px;
+  }
+
+  .troublelistimg img {
+    width: 22px;
+  }
+}
+
+
+
+
+
+
 /* h2title */
 .subtitle h2 {
   font-size: 50px;
@@ -289,10 +454,20 @@ h1 span {
   padding-bottom: 40px;
 }
 
+/*  h2titleSP */
+@media screen and (max-width:590px) {
+  .position.subtitle {
+    padding-bottom: 20px;
+  }
+
+  .subtitle h2 {
+    font-size: 20px;
+  }
+}
+
 
 /* フォーム帯 */
 .form {
-  background-color: #bcdffe;
   padding: 80px;
 }
 
@@ -367,6 +542,36 @@ h1 span {
 }
 
 
+/* フォーム帯SP */
+@media screen and (max-width:590px) {
+  .form {
+    padding: 40px 0;
+  }
+
+  .form h2 {
+    font-size: 20px;
+    background-image: none;
+  }
+
+  .form-flexbox {
+    flex-direction: column;
+  }
+
+  .form-document p:nth-of-type(2) {
+    font-size: 18px;
+  }
+
+  .form-document p:nth-of-type(1) {
+    font-size: 20px;
+    border-radius: 0px;
+  }
+}
+
+
+
+
+
+
 /* prD.I.Worksの強み */
 .pr.section>p:nth-child(1) {
   font-size: 40px;
@@ -398,7 +603,7 @@ h1 span {
 
 }
 
-.pr p {
+.pr>p {
   text-align: center;
 }
 
@@ -427,7 +632,7 @@ h1 span {
   position: relative;
   width: 100px;
   height: 70px;
-  margin: 0 auto;
+  margin-right: 10px
 }
 
 .primg img {
@@ -446,19 +651,74 @@ h1 span {
 }
 
 .pr-text {
-  text-align-last: left;
+  text-align: left;
+}
+
+/* prD.I.Worksの強み */
+@media screen and (max-width:590px) {
+  .pr.section>p:nth-child(1) {
+    font-size: 25px;
+
+  }
+
+  .pr .pr-title h2 {
+    width: 100%;
+  }
+
+  .pr h2 span:nth-of-type(2) {
+    font-size: 46px;
+    font-weight: bold;
+  }
+
+  .pr h2 span:nth-of-type(1) {
+    font-size: 60px;
+  }
+
+  .pr-corner {
+
+    justify-content: center;
+  }
+
+  .pr-field {
+    width: 90%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 7px 0px rgba(0, 0, 0, 0.4);
+  }
+
+  .pr-fieldtitle {
+    padding: 10px 0;
+    width: 95%;
+    justify-content: space-around;
+  }
+
+  .pr-text {
+    width: 90%;
+    padding: 10px 0;
+  }
+
+  .pr p {
+    font-size: 16px;
+  }
+
+  .primg {
+    margin: 0;
+    width: 20%;
+    height: 50px;
+  }
 }
 
 /* industry業種紹介 */
 .industry {
   background-image: url(img/dilp2bimg.png);
-  background-size: 116%;
+  background-size: 121%;
   background-repeat: no-repeat;
   background: contain;
-  background-position: center;
-  min-height: 909px;
+  background-position: left;
   width: 100%;
   overflow: hidden;
+  min-height: 900px;
+  padding-bottom: 80px;
+  padding-top: 80px;
 }
 
 .industry h2 {
@@ -469,10 +729,7 @@ h1 span {
 .industry p {
   text-align: center;
   color: white;
-}
-
-.industry .position.subtitle {
-  padding: 20px 0;
+  font-size: 35px;
 }
 
 .industry .pr-title p {
@@ -486,8 +743,10 @@ h1 span {
 .industry-field {
   border: solid 1px black;
   width: 70%;
-  margin-left: 20%;
+  margin-left: auto;
   padding: 10px;
+  margin-right: 20px;
+  display: block;
 }
 
 .industry-field p {
@@ -506,7 +765,7 @@ h1 span {
 
 .industry-field ul {
   text-align: left;
-  width: 70%;
+  width: 90%;
   margin: 0 auto;
   font-weight: bold;
   padding: 10px;
@@ -516,6 +775,76 @@ h1 span {
   font-weight: 100;
 }
 
+/* industry業種紹介SP */
+@media screen and (max-width:590px) {
+  .industry {
+    background-image: none;
+    margin-bottom: 40px;
+    min-height: none;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    min-height: 500px;
+  }
+
+  .industry p {
+    color: #333;
+  }
+
+  .industry .pr-title h2 {
+    width: 100%;
+  }
+
+  .industry .position.subtitle {
+    padding: 10px 0;
+  }
+
+  .industry p {
+    font-size: 14px;
+  }
+
+  .industry-field {
+    margin: 0 auto;
+    width: 90%;
+  }
+
+  .industry-field ul {
+    font-size: 14px;
+  }
+
+  .industry .pr-title {
+    background-image: url(img/dilp2bimg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background: contain;
+    background-position: center;
+    min-height: 200px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .industry .pr-title {
+    margin-bottom: 20px;
+  }
+
+  .industry .pr-title p {
+    font-size: 12px;
+    margin-right: 0;
+    margin-right: 19px;
+    margin-left: auto;
+    width: 75%;
+    display: block;
+    line-height: 1.5;
+  }
+
+  .industry .pr-title h2 {
+    margin-right: 19px;
+    margin-left: auto;
+    width: 80%;
+    display: block;
+    color: white;
+  }
+
+}
 
 /* ご依頼の流れs05__wrap SP */
 @media screen and (max-width:590px) {
@@ -633,6 +962,15 @@ h1 span {
 /* 人材サービスの仕組み */
 .service {
   text-align: center;
+  background-image: url(img/dilp2bimg2.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background: contain;
+  background-position: center;
+  min-height: 1000px;
+  width: 100%;
+  overflow: hidden;
+
 }
 
 .service h2 {
@@ -648,11 +986,13 @@ h1 span {
 }
 
 .service-field {
-  background-color: #222a51;
+  background-color: #003F7F;
   width: 80%;
-  margin: 0 auto;
-  color: white;
+  margin: 0;
+  margin-left: 2%;
+  color: #333;
   font-weight: 100;
+  background-color: white;
 }
 
 .service-field+.service-field {
@@ -661,9 +1001,10 @@ h1 span {
 
 .service-title p {
   font-size: 30px;
-  color: #ffd71f;
-  border-bottom: dotted 1px #ffd71f;
+  font-weight: bold;
+  border-bottom: dotted 1px #003F7F;
   padding: 10px 0;
+  color: #003F7F;
 }
 
 
@@ -705,6 +1046,78 @@ h1 span {
 .serviceimg {
   width: 50%;
 }
+
+
+/* 人材サービスの仕組みSP */
+@media screen and (max-width:590px) {
+  .service h2 {
+    font-size: 20px;
+  }
+
+  .service>p:nth-child(1) {
+    font-size: 18px;
+  }
+
+  .service>.pr-title h2 {
+    width: 100%;
+  }
+
+  .service-flexbox {
+    flex-direction: column;
+  }
+
+  .service-text {
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .serviceimg {
+    width: 100%;
+  }
+
+  .service-field {
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .service-title p {
+    font-size: 20px;
+  }
+
+  .service-text1 p {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .service-text2 p {
+    font-size: 12px;
+  }
+
+  .service .position.subtitle {
+    padding: 10px 0 20px 0;
+  }
+
+  .service-text ul li {
+    font-size: 15px;
+  }
+
+  .service-text.service-text2 ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    width: 90%;
+  }
+
+  .service-text.service-text2 ul li {
+    justify-content: left;
+    align-items: end;
+  }
+}
+
+
+
+
+
 
 /*notes*/
 /* よくある質問コピペ */
@@ -977,7 +1390,6 @@ footer {
 @media screen and (max-width:590px) {
   .button {
     font-size: 16px;
-    width: 100%;
     margin: 7px 0;
   }
 }

@@ -75,68 +75,92 @@
                     </div>
                 </div>
                 <div class="imgfield">
-                    <div class="imgfield">
-                        <img src="img/factory.jpg" alt="ITで働く男性と女性">
-                    </div>
-                    <div class="imgfield">
-                        <img src="img/factory.jpg" alt="ITで働く男性と女性">
-                    </div>
-                    <div class="imgfield">
-                        <img src="img/factory.jpg" alt="ITで働く男性と女性">
-                    </div>
-                    <div class="imgfield">
-                        <img src="img/factory.jpg" alt="ITで働く男性と女性">
-                    </div>
-                    <div class="imgfield">
-                        <img src="img/factory.jpg" alt="ITで働く男性と女性">
-                    </div>
-                    <div class="imgfield">
-                        <img src="img/factory.jpg" alt="ITで働く男性と女性">
-                    </div>
+                    <img src="img/dilp2topimg.png" alt="ITで働く男性と女性">
                 </div>
             </div>
+        </section>
+
+        <section class="top sp-mode">
+            <div class="first">
+                <div class="first-topbartext">
+                    <h2 class="topbartext-h2">【３ヶ月〜長期特化派遣】<br class="sp-mode">最短よく営業日から紹介可能！全国どこでも柔軟に対応いたします。</h2>
+                </div>
+                <div class="first-mainfield">
+                    <div class="first-textfield">
+                        <h1>あなたの求めている<br><span>"人材"</span><br>ご紹介します！</h1>
+                        <div class="first-subtext">
+                            <ul>
+                                <li>
+                                    <div class="first-checkimg">
+                                        <img src="img/check.png" alt="TOPmainビジュアル画像">
+                                    </div>
+                                    最短翌営業日〜対応可能
+                                </li>
+                                <li>
+                                    <div class="first-checkimg">
+                                        <img src="img/check.png" alt="TOPmainビジュアル画像">
+                                    </div>
+                                    全国での対応が可能です。
+                                </li>
+                                <li>
+                                    <div class="first-checkimg">
+                                        <img src="img/check.png" alt="TOPmainビジュアル画像">
+                                    </div>
+                                    雇用業務の簡素化、コスト削減のお手伝いが可能
+                                </li>
+                            </ul>
+                            <h2>長期人材派遣ならD.I.Worksにお任せください</h2>
+
+
+                        </div>
+
+                    </div>
+                    <div class="imgfield">
+                        <img src="img/dilp2topimg.png" alt="ITで働く男性と女性">
+                    </div>
+                </div>
         </section>
 
 
         <section class="trouble section">
             <div class="troublefield">
                 <div class="pr-title position subtitle">
-                    <h2>企業の皆様、こんなお困り事ございませんか？</h2>
+                    <h2>企業の皆様、<br class="sp-mode">こんなお困り事ございませんか？</h2>
                 </div>
                 <div class="troublelist">
                     <ul>
                         <li>
-                            <div class="troublelist">
+                            <div class="troublelistimg">
                                 <img src="img/check.png" alt="TOPmainビジュアル画像">
                             </div>
                             慢性的な人手不足の状態を改善したい
                         </li>
                         <li>
-                            <div class="troublelist">
+                            <div class="troublelistimg">
                                 <img src="img/check.png" alt="TOPmainビジュアル画像">
                             </div>
                             社員の産休中の間だけの人員が欲しい。
                         </li>
                         <li>
-                            <div class="troublelist">
+                            <div class="troublelistimg">
                                 <img src="img/check.png" alt="TOPmainビジュアル画像">
                             </div>
                             人手は欲しいが、採用活動を行う時間がない。
                         </li>
                         <li>
-                            <div class="troublelist">
+                            <div class="troublelistimg">
                                 <img src="img/check.png" alt="TOPmainビジュアル画像">
                             </div>
                             優秀な人材だったら自社にほしい
                         </li>
                         <li>
-                            <div class="troublelist">
+                            <div class="troublelistimg">
                                 <img src="img/check.png" alt="TOPmainビジュアル画像">
                             </div>
                             異動した社員の後任の候補が欲しい
                         </li>
                         <li>
-                            <div class="troublelist">
+                            <div class="troublelistimg">
                                 <img src="img/check.png" alt="TOPmainビジュアル画像">
                             </div>
                             未経験でもいいから元気なスタッフが欲しい
@@ -144,8 +168,9 @@
                     </ul>
                 </div>
             </div>
-            <div class="pr-title position subtitle">
-                <h2>そのお困り事を解決いたします！</h2>
+            <div class="_troublefield pr-title position subtitle">
+                <h2>そんな企業のお困りごとをD.I.Worksが解決します</h2>
+
             </div>
             <!--trouble-voice候補１ -->
             <div class="trouble-voice">
@@ -192,7 +217,7 @@
         <!-- フォーム帯 -->
         <section class="form">
             <div class="form-h2">
-                <h2>人事・採用でお悩みの企業の方、ぜひD.I.Worksにご相談ください</h2>
+                <h2>人事・採用でお悩みの企業の方、<br class="sp-mode">ぜひD.I.Worksにご相談ください</h2>
             </div>
             <div class="form-flexbox">
                 <div class="form-tel">
@@ -218,7 +243,7 @@
         <section class="pr section">
             <p>他社の人材派遣会社と違う</p>
             <div class="pr-title position subtitle">
-                <h2>D.I.worksが選ばれる<span>3</span>つの<span>"強み"</span></h2>
+                <h2>D.I.worksが選ばれる<br class="sp-mode"><span>3</span>つの<span>"強み"</span></h2>
             </div>
             <div class="pr-corner">
                 <div class="pr-field">
@@ -259,15 +284,26 @@
         </section>
 
         <!-- 業種紹介 -->
-        <section class="industry section">
-            <p>様々な実績があるD.I.Worksなら</p>
-            <div class="pr-title position subtitle">
+        <section class="industry">
+            <p class="pc-mode">様々な実績があるD.I.Worksなら</p>
+            <div class="pr-title position subtitle sp-mode">
+                <div class="industry-titlebox">
+                    <p>様々な実績があるD.I.Worksなら</p>
+                    <h2>あらゆる業種のご紹介が可能です</h2>
+                    <p>D.I.Worksは長期人材サービスのエキスパートです。<br>
+                        全国の拠点から企業様のご希望の人材を最短翌営業日にご紹介することができる<br>
+                        人材派遣・紹介サービスです。
+                    </p>
+                </div>
+            </div>
+            <div class="pr-title position subtitle pc-mode">
                 <h2>あらゆる業種のご紹介が可能です</h2>
                 <p>D.I.Worksは長期人材サービスのエキスパートです。<br>
                     全国の拠点から企業様のご希望の人材を最短翌営業日にご紹介することができる<br>
                     人材派遣・紹介サービスです。
                 </p>
             </div>
+
             <div class="industry-field">
                 <p>紹介可能業務の一例</p>
                 <ul>コールセンター
@@ -358,7 +394,6 @@
                 </div>
             </div>
         </section>
-        <!-- 人材サービスの仕組み -->
         <section class="service section">
             <p>D.I.Worksの人材派遣の仕組みと</p>
             <div class="pr-title position subtitle">
@@ -371,7 +406,7 @@
                     </div>
                     <div class="service-flexbox">
                         <div class="service-text service-text1">
-                            <p>D.I.Worksが雇用している社員を、企業に派遣し仕事に従事してもらうます。入社後の指揮命令権は企業にあるので企業で指揮をとることが可能です。<br>
+                            <p>D.I.Worksが雇用している社員を、企業に派遣し仕事に従事してもらいます。入社後の指揮命令権は企業にあるので企業で指揮をとることが可能です。<br>
                                 給与の支払いや雇用保険などの事務的な手続きは派遣会社が行います。企業は派遣会社と労働者派遣契約を結びます。
                             </p>
                         </div>
@@ -389,7 +424,7 @@
                         <div class="service-text service-text2">
                             <ul>
                                 <li>
-                                    <div class="troublelist">
+                                    <div class="troublelistimg">
                                         <img src="img/check.png" alt="TOPmainビジュアル画像">
                                     </div>
                                     コストの削減につながる
@@ -397,14 +432,14 @@
                                 <p>D.I.Worksではご希望の人材を企業さまにご紹介させていただきますので採用活動や育成にかかる手間や費用を抑えることが可能です。
                                     また派遣料金は財務上、固定費（人件費）ではなく変動費（仕入原価）として計上できるので、固定費を削減でき、節税にもつながります。</p>
                                 <li>
-                                    <div class="troublelist">
+                                    <div class="troublelistimg">
                                         <img src="img/check.png" alt="TOPmainビジュアル画像">
                                     </div>
                                     必要なときのみ雇用ができる
                                 </li>
                                 <p>D.I.Worksでは長期人材派遣を得意としております。そのため最低3ヶ月からの派遣で観光シーズンの季節だけ・社員の産休中だけ・社員の長期出張中だけといった限定的な人材補充に柔軟に対応することができます。</p>
                                 <li>
-                                    <div class="troublelist">
+                                    <div class="troublelistimg">
                                         <img src="img/check.png" alt="TOPmainビジュアル画像">
                                     </div>
                                     経験者・未経験社を確保できる
@@ -413,7 +448,7 @@
                                     派遣・紹介することが可能です。
                                 </p>
                                 <li>
-                                    <div class="troublelist">
+                                    <div class="troublelistimg">
                                         <img src="img/check.png" alt="TOPmainビジュアル画像">
                                     </div>
                                     業務効率が上がる
